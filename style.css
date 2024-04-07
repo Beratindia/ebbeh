@@ -1,0 +1,389 @@
+body{
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+.bacquet{
+    height: 250px;
+    width: 250px;
+    border:2px white;
+    position: absolute;
+    margin:auto;
+    top: 0%;
+    bottom:0%;
+    left: 0%;
+    right: 0%;
+}
+.paper1{
+    height: 150px;
+    width: 300px;
+    background-color: blanchedalmond;
+    position: absolute;
+    bottom: 250PX;
+    left: 200px;
+    box-shadow: 0 0 15px 2px #C08B5C;
+    border-radius: 50% 50% 0 0;
+
+}
+
+.paper2{
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 150px;
+    bottom: 100px;
+    left: 250px;
+    position: absolute;
+}
+.paper3{
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    border-radius: 0 0 0 50%  ;
+}
+.paper4{
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 160px;
+    position: absolute;
+    bottom: 100px;
+    left: 340px;
+    border-radius: 0 0 50% 0  ;
+}
+.flower1{
+    background-color: green;
+    height: 220px;
+    width: 10px;
+    position:absolute;
+    bottom: 140px;
+    left: 210px;
+    border-radius: 20% 0 0 0;
+}
+.flower2{
+    background-color: #E178C5;
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    bottom: 332px;
+    left: 148px;
+    border-radius: 0 80% 0 80%;
+    box-shadow: 0 0 15px 2px #F7418F;
+}
+.flower3{
+    background-color: #E178C5;
+    height: 100px;
+    width: 65px;
+    position: absolute;
+    bottom: 330px;
+    left: 179px;
+    border-radius: 80% 80% 80% 80%;
+    box-shadow: 0 0 20px 2px #F7418F;
+}
+.flower4{
+    background-color: #E178C5;
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    bottom: 332px;
+    left: 199px;
+    border-radius: 80% 0 80% 0 ;
+    box-shadow: 0 0 15px 2px #F7418F;
+    animation: glow infinite;
+    -webkit-animation: glow 2 infinite;
+
+}
+.flower5{
+    background-color: green;
+    height:100px;
+    width: 6px;
+    position: absolute;
+    bottom: 150px;
+    left: 275px;
+}
+.flower6{
+    background-color: #FFF455;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 220px;
+    left: 252px;
+    border-radius: 50% 50% 50% 50%;
+}
+.flower7{
+    background-color: #E178C5;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 260px;
+    left: 258px;
+    border-radius: 50% 50% 5% 5%;
+    box-shadow: #FF3EA5;
+}
+.flower8{
+    background-color: #E178C5;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 200px;
+    left: 280px;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(315deg);
+    box-shadow: #FF3EA5;
+
+}
+.flower9{
+    background-color: #E178C5;
+    height: 40px;
+    width:40px;
+    position: absolute;
+    bottom: 200px;
+    left: 238px;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(45deg);
+    box-shadow: #FF3EA5;
+}
+.flower10{
+    background-color: #E178C5;
+    height: 40px;
+    width:40px;
+    position: absolute;
+    bottom: 240px;
+    left: 229px;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(135deg);
+    box-shadow: #FF3EA5;
+}
+.flower11{
+    background-color: #E178C5;
+    height: 40px;
+    width:40px;
+    position: absolute;
+    bottom: 240px;
+    left: 290px;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(220deg);
+    box-shadow: #FF3EA5;
+}
+.flower12{
+    background-color: green;
+    height: 220px;
+    width: 10px;
+    position:absolute;
+    bottom: 140px;
+    left: 340px;
+    border-radius: 20% 0 0 0;
+}
+.flower13{
+    background-color: #9F70FD;
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    bottom: 332px;
+    left: 290px;
+    border-radius: 0 80% 0 80%;
+    box-shadow: 0 0 15px 2px #7F27FF;
+}
+.flower14{
+    background-color: #9F70FD;
+    height: 100px;
+    width: 65px;
+    position: absolute;
+    bottom: 330px;
+    left: 312px;
+    border-radius: 80% 80% 80% 80%;
+    box-shadow: 0 0 20px 2px #7F27FF;
+}
+.flower15{
+    background-color: #9F70FD;
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    bottom: 332px;
+    left: 330px;
+    border-radius: 80% 0 80% 0 ;
+    box-shadow: 0 0 15px 2px #7F27FF;
+    animation: glow infinite;
+    -webkit-animation: glow 2 infinite;
+}
+.flower16{
+    background-color: #FFF455;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 220px;
+    left: 376px;
+    border-radius: 50% 50% 50% 50%;
+}
+.flower17{
+    background-color: #E178C5;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 260px;
+    left: 381px;
+    border-radius: 50% 50% 5% 5%;
+    box-shadow: #FF3EA5;
+}
+.flower18{
+    background-color: #E178C5;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    bottom: 205px;
+    left: 399px;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(315deg);
+    box-shadow: #FF3EA5;
+
+}
+.flower19{
+    background-color: #E178C5;
+    height: 40px;
+    width:40px;
+    position: absolute;
+    bottom: 205px;
+    left: 360px;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(45deg);
+    box-shadow: #FF3EA5;
+}
+.flower20{
+    background-color: #E178C5;
+    height: 40px;
+    width:40px;
+    position: absolute;
+    bottom: 240px;
+    left: 360px;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(135deg);
+    box-shadow: #FF3EA5;
+}
+.flower{
+    background-color: #E178C5;
+    height: 40px;
+    width:40px;
+    position: absolute;
+    bottom: 240px;
+    left: 400px;
+    border-radius: 0 0 50% 50%;
+    transform: rotate(220deg);
+    box-shadow: #FF3EA5;
+}
+.flower21{
+    background-color: green;
+    height:100px;
+    width: 6px;
+    position: absolute;
+    bottom: 150px;
+    left: 398px;
+}
+.flower22{
+    background-color: green;
+    height: 220px;
+    width: 11px;
+    position:absolute;
+    bottom: 140px;
+    left: 470px;
+    border-radius: 20% 0 0 0;
+}
+.flower25{
+    background-color: #81F5FF;
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    bottom: 331px;
+    left: 415px;
+    border-radius: 0 80% 0 80%;
+    box-shadow: 0 0 15px 2px #54BAB9;
+}
+.flower23{
+    background-color: #81F5FF;
+    height: 100px;
+    width: 65px;
+    position: absolute;
+    bottom: 330px;
+    left: 446px;
+    border-radius: 80% 80% 80% 80%;
+    box-shadow: 0 0 20px 2px #54BAB9;
+}
+.flower24{
+    background-color: #81F5FF;
+    height: 100px;
+    width: 75px;
+    position: absolute;
+    bottom: 332px;
+    left: 460px;
+    border-radius: 80% 0 80% 0 ;
+    box-shadow: 0 0 15px 2px #54BAB9;
+    animation: glow infinite;
+    -webkit-animation: glow 2 infinite;
+}
+.ribbon{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+    border-radius: 0 0 80% 80% ;
+}
+.ribbon1{
+    background-color: #FF165D;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 140px;
+    left: 329px;
+    border-radius: 80% 0 80% 0;
+    transform: rotate(340deg);
+}
+.ribbon2{
+    background-color: #FF165D;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 140px;
+    left: 310px;
+    border-radius: 0 80% 0 80%;
+    transform: rotate(25deg);
+}
+.daon{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 290PX  ;
+    left: 160px;
+    border-radius: 0 80% 0 ;
+}
+.daon1{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 260PX  ;
+    left: 480px;
+    border-radius: 0 80% 0 ;
+}
+.message{
+    position: absolute;
+    bottom: 500px;
+    left: 280px;
+
+}
+@keyframes glow{
+    50%{
+        box-shadow: 0 0 2px 0 rgb(251, 178,0,0.6);
+        top: -20.5px;
+
+    }
+}
+@-webkit-keyframes glow{
+    50%{
+        box-shadow: 0 0 2px 0 rgb(251, 178, 0,0.9);
+        top: -20.5px;
+    }
+}
